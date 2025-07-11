@@ -16,7 +16,7 @@ const ReviewCard = ({ image, title, userName, userRole, review }: Props) => {
         alt={title}
         width={80}
         height={80}
-        className="object-cover mx-auto"
+        className="object-cover mx-auto rounded-full"
       />
       <h2 className="mt-4 text-lg font-bold text-blue-600 dark:text-white text-center">
         {title}

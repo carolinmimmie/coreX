@@ -6,9 +6,10 @@ const Price = () => {
   return (
     <div className="pt-16 pb-16">
       <SectionHeading
-        heading="some heading for membership"
-        subHeading="some text for picking memberhship"
+        heading="Choose Your Membership Plan"
+        subHeading="Find the perfect fit for your fitness journey. Whether you're just starting out or training daily, we have a plan for you."
       />
+
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         <div
           data-aos="fade-right"

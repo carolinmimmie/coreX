@@ -39,7 +39,7 @@ const Review = () => {
           autoPlaySpeed={4000}
         >
           <ReviewCard
-            image="/images/image1.png"
+            image="/images/profile1.jpg"
             title="Motivating & Professional!"
             userName="Emily R"
             userRole="Member at Pulse Fitness, Stockholm"
@@ -47,7 +47,7 @@ const Review = () => {
           />
 
           <ReviewCard
-            image="/images/image2.png"
+            image="/images/profile2.jpg"
             title="Clean and Spacious!"
             userName="Robert T"
             userRole="Morning Member, Helsingborg"
@@ -55,7 +55,7 @@ const Review = () => {
           />
 
           <ReviewCard
-            image="/images/image3.png"
+            image="/images/profile3.jpg"
             title="Friendly Staff!"
             userName="Sofia A"
             userRole="Group Class Attendee, Västerås"
@@ -63,7 +63,7 @@ const Review = () => {
           />
 
           <ReviewCard
-            image="/images/image4.png"
+            image="/images/profile4.jpg"
             title="Flexible Membership!"
             userName="Ali N"
             userRole="Student Plan Member, Lund"

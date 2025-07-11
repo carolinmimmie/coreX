@@ -27,13 +27,13 @@ export const Footer = () => {
             </p>
           </div>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-4">
-            GymLife Headquarters
+            CoreX Headquarters
           </p>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
             Storgatan 12, 111 22 Stockholm, Sweden
           </p>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-            contact@gymlife.se
+            contact@CoreX.se
           </p>
         </div>
         <div className="space-y-6">

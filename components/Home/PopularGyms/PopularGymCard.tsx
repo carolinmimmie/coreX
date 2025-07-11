@@ -1,10 +1,9 @@
 import React from "react";
-import Image from "next/image";
+
 import { GrLocation } from "react-icons/gr";
 type Props = {
   gymData: {
     id: number;
-    image: string;
     name: string;
     location: string;
     position: string;
@@ -14,13 +13,6 @@ type Props = {
 const PopularGymCard = ({ gymData }: Props) => {
   return (
     <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 m-3">
-      <Image
-        src={gymData.image}
-        alt={gymData.name}
-        width={80}
-        height={80}
-        className="object-cover mx-auto"
-      />
       <h2 className="text-lg font-medium mt-4 text-center text-gray-800 dark:text-gray-200">
         {gymData.name}
       </h2>

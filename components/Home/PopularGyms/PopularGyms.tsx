@@ -22,49 +22,42 @@ const responsive = {
     slidesToSlide: 1, // optional, default to 1.
   },
 };
-
 const PopularGymData = [
   {
     id: 1,
-    image: "/images/Arrow.png",
     name: "Iron Pulse Club",
     location: "Stockholm, Sweden",
-    position: "Centralstationen · 12 gyms",
+    position: "12 gyms",
   },
   {
     id: 2,
-    image: "/images/AbstractWaves.png",
     name: "CoreX Gym",
     location: "Göteborg, Sweden",
-    position: "Avenyn · 9 gyms",
+    position: "5 gyms",
   },
   {
     id: 3,
-    image: "/images/titan.png",
     name: "TitanFit",
     location: "Malmö, Sweden",
-    position: "Triangeln · 6 gyms",
+    position: "6 gyms",
   },
   {
     id: 4,
-    image: "/images/flex.png",
     name: "FlexZone",
     location: "Örebro, Sweden",
-    position: "Västhaga · 3 gyms",
+    position: "3 gyms",
   },
   {
     id: 5,
-    image: "/images/power.png",
     name: "Athletica X",
     location: "Uppsala, Sweden",
-    position: "Centralbadet · 4 gyms",
+    position: "4 gyms",
   },
   {
     id: 6,
-    image: "/images/Sparkles.png",
     name: "PowerNest",
     location: "Stockholm, Sweden",
-    position: "Södermalm · 8 gyms",
+    position: "8 gyms",
   },
 ];
 
