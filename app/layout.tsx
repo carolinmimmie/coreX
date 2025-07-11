@@ -8,6 +8,8 @@ import { ScrollToTop } from "@/components/Helper/ScrollToTop";
 
 const font = Roboto({
   weight: ["400", "500", "700"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
